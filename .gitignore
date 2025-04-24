@@ -1,0 +1,64 @@
+# === Genel Ayarlar ===
+
+# Derleme çıktıları
+**/bin/
+**/obj/
+
+# Rider & JetBrains klasörleri
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# .NET kullanıcı ayarları
+*.vsp
+*.pidb
+*.userprefs
+*.sdf
+*.dbmdl
+
+# ASP.NET publish çıktısı
+**/wwwroot/
+
+# .NET environment files
+*.env
+**/.env
+
+# Paket yönetimi
+**/node_modules/
+**/packages/
+
+# Log dosyaları
+**/*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Rider metadata
+.idea/
+*.sln.iml
+
+# Auto-generated files
+*.Generated.cs
+*.g.cs
+*.g.i.cs
+
+# Unit test sonuçları
+TestResults/
+*.coverage
+*.coveragexml
+
+# Docker / container
+**/.dockerignore
+**/Dockerfile
+
+# Lokal ayarlar
+.vscode/
+*.launch.json
+*.task.json
